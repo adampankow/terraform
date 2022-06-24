@@ -1,9 +1,8 @@
 name: test
-on:
-  workflow-dispatch:
-    jobs:
-      job1:
-        runs-on: alpine-latest
+on: workflow-dispatch
+  jobs:
+    job1:
+      runs-on: alpine-latest
         steps:
-        run: |
-          echo "Test"
+          - run:
+            echo "Test"
