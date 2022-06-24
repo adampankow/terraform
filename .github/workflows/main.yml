@@ -5,5 +5,5 @@ on:
       job1:
         runs-on: alpine-latest
         steps:
-        - run: |
+        run: |
           echo "Test"
